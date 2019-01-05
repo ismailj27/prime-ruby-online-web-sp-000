@@ -11,7 +11,8 @@ def prime? (integer)
     return true
   else
     arr.none? do |num|
-      (integer % num) != (integer % num).to_i
+      binding.pry
+      (integer % num) == (integer % num).to_i
     end
   end
 end
