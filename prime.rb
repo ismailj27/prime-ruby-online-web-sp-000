@@ -3,7 +3,7 @@ def prime? (integer)
   low_primes = [2,3,5,7,11]
   arr = (2..(integer-1)).to_a
   
-  if integer == 1 || integer == 0
+  if integer == 1 || integer == 0 || integer <= -1
     return false
   elsif integer.even? && integer != 2
     return false
