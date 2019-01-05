@@ -5,10 +5,10 @@ def prime? (integer)
   
   if integer == 1 || integer == 0
     return false
-  elsif low_primes.include?(integer)
-    return true
   elsif integer.even? && integer != 2
     return false
+  elsif low_primes.include?(integer)
+    return true
   else
     arr.any? do |num|
       (num % integer) == ( 0 || 1 )
