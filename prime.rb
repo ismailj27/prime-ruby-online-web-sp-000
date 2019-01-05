@@ -1,7 +1,7 @@
 # Add  code here!
 def prime? (integer)
   low_primes = [2,3,5,7,11]
-  arr = (1..(integer-1)).to_a
+  arr = (2..(integer-1)).to_a
   
   if integer == 1 || integer == 0
     return false
