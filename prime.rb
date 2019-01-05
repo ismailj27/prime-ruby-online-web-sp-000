@@ -1,6 +1,5 @@
 # Add  code here!
 prime? (integer)
-
   low_primes = [2,3,5,7,11]
   
   if integer == 1 || integer == 0
