@@ -8,10 +8,10 @@ prime? (integer)
     arr.any? do |nums|
       nums % integer == (1 || 0)
     end
-  elsif
-    low_primes = [2,3,5,7,11]
-    low_primes.include?(integer)
   elsif integer.even? && integer != 2
     return false
+  else
+    low_primes = [2,3,5,7,11]
+    low_primes.include?(integer)
   end
 end
