@@ -11,7 +11,6 @@ def prime? (integer)
     return true
   else
     arr.none? do |num|
-      pry
       (integer % num) == (integer % num).to_i
     end
   end
