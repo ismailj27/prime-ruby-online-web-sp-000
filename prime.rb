@@ -1,8 +1,8 @@
 # Add  code here!
 prime? (integer)
 
-  if integer.length > 1
-    integer.split()
-  else
+  if integer == 1
+    return false
+  elsif integer
     
 end
