@@ -9,7 +9,6 @@ prime? (integer)
   elsif
     low_primes = [2,3,5,7,11]
     low_primes.include?(integer)
-
-    
+  elsif (integer % 
     
 end
