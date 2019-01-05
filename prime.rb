@@ -2,6 +2,6 @@
 prime? (integer)
 
   if integer.length > 1
-    integer.
+    integer.split()
 
 end
