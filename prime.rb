@@ -13,5 +13,5 @@ prime? (integer)
     low_primes.include?(integer)
   elsif integer.even? && integer != 2
     return false
-    
+  end
 end
