@@ -3,6 +3,6 @@ prime? (integer)
 
   if integer == 1
     return false
-  elsif integer % 2 
+  elsif integer
     
 end
