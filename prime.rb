@@ -11,7 +11,7 @@ def prime? (integer)
     return true
   else
     arr.any? do |num|
-      (num % integer) == ( 0 || 1 )
+      (num % integer) != false
     end
   end
 end
