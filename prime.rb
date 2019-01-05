@@ -1,5 +1,5 @@
 # Add  code here!
-prime? (integer)
+def prime? (integer)
   low_primes = [2,3,5,7,11]
   arr = (1..(integer-1)).to_a
   
