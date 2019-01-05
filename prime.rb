@@ -7,11 +7,10 @@ def prime? (integer)
     return false
   elsif low_primes.include?(integer)
     return true
-  elsif  % integer == (1 || 0)
-    return true
   elsif integer.even? && integer != 2
     return false
   else
-    
+    arr.any? do |num|
+      num == 
   end
 end
