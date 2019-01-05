@@ -12,7 +12,7 @@ def prime? (integer)
   else
     arr.none? do |num|
       remainder = integer % num
-      remainder == remainder.to_i
+      remainder != remainder.to_i
     end
   end
 end
