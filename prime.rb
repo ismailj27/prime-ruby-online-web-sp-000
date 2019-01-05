@@ -10,7 +10,7 @@ def prime? (integer)
   elsif low_primes.include?(integer)
     return true
   else
-    arr.all? do |num|
+    arr.none? do |num|
       (integer % num) == (integer % num).to_i
     end
   end
