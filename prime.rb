@@ -3,7 +3,7 @@ prime? (integer)
 
   if integer == 1 || integer == 0
     return false
-  elsif !()
+  elsif !(integer == 1 || integer == 0)
     arr = (1..(integer-1))to_a
     arr.any? do |nums|
       nums % integer == (1 || 0)
