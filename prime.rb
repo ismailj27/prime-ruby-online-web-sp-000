@@ -6,7 +6,7 @@ prime? (integer)
   elsif 
     arr = (1..(integer-1))to_a
     arr.any? do |nums|
-      nums
+      nums % integer
   elsif
     low_primes = [2,3,5,7,11]
     low_primes.include?(integer)
